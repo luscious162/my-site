@@ -1,0 +1,82 @@
+export const en = {
+  header: {
+    menu: "Menu",
+    close: "Close",
+  },
+  nav: {
+    home: "Home",
+    about: "About",
+    projects: "Projects",
+    blog: "Blog",
+    contact: "Contact",
+    skills: "Skills",
+    newsletter: "Newsletter",
+  },
+  home: {
+    title: "Full-Stack Developer",
+    subtitle: "Creating Interactive Experiences",
+    cta: "View my work",
+    greeting: "Hi, I am",
+    resume: "My University",
+  },
+  about: {
+    title: "About Me",
+    subtitle: "My journey as a developer",
+  },
+  projects: {
+    title: "Projects",
+    subtitle: "Some of my recent work",
+    viewAll: "View All",
+    cancel: "Cancel",
+    frontend: "Frontend",
+    backend: "Backend",
+  },
+  contact: {
+    title: "Contact",
+    subtitle: "Get in touch",
+    name: "Name",
+    email: "Email",
+    message: "Message",
+    send: "Send",
+  },
+  footer: {
+    inspired: "Inspired by:",
+    typography: "Typography:",
+    images: "Images:",
+    copyright: "All rights reserved.",
+  },
+  language: {
+    switch: "中文",
+  },
+  tooltip: {
+    devtools: "There's something waiting for you in devtools",
+    hire: "Please! 🥹 🙏"
+  },
+  skills: {
+    hint: "(hint: press a key)",
+    js: "yeeting code into the DOM since '95, no cap! 💯🚀",
+    ts: "JavaScript's overachieving cousin who's always flexing 💯🔒",
+    html: "the internet's granddad, still bussin' fr fr! 💀🔥",
+    css: "styling with the ultimate drip, no cap 💁‍♂️🔥",
+    react: "\"use using\" \nusing use = useUsing(\"use\")",
+    vue: "the chill pill for your frontend, it hits different! 🟢😌",
+    nextjs: "the drama queen of front-end frameworks, and we stan! 👑📜",
+    tailwind: "utility classes hitting different fr fr 🌪️🔥",
+    nodejs: "JavaScript said 'sike, I'm backend now', deadass! 🔙🔚",
+    express: "middlewares go dummy hard, no cap! 🚂💨",
+    postgres: "SQL but make it fashion, purr 💅🐘",
+    mongodb: "flexin' with that NoSQL drip, respectfully! 💪🍃",
+    git: "the code's personal bodyguard, no cap! 🕵️‍♂️🔄",
+    github: "sliding into those pull requests, IYKYK! 🐙",
+    prettier: "making your code not a whole mess, thank u next 🧹✨",
+    npm: "package manager said 'I gotchu fam', period! 📦💯",
+    firebase: "your app's ultimate wingman, but watch out, vendor lock-in vibes! 🔥👌",
+    wordpress: "the grandpa of CMS, still rocking that cane 🧓👴",
+    linux: "where 'chmod 777' is the ultimate flex 🔓🙌",
+    docker: "The best containerization! 🐳🔥",
+    nginx: "reverse proxy go zoom zoom, sheesh! 🚗💨",
+    aws: "always extra, making everything more complicated, period! 🌐👨‍💻",
+    vim: "exit? In this economy? Ight, imma head out! 🚪🏃",
+    vercel: "The triangle compony, helps you deploy and go touch grass! 🚀🌿"
+  }
+}; 
