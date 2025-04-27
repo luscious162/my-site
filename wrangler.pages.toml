@@ -1,0 +1,15 @@
+# Wrangler configuration for Cloudflare Pages
+name = "portfolio"
+
+# Pages configuration
+[pages]
+build_output_directory = ".next"
+assets = ".next/static"
+index = ".next/server/app/index.html"
+
+[pages.build]
+command = "npm run build"
+
+# Environment
+[pages.environment]
+RESEND_API_KEY = "re_dummy_key_for_build_only" 

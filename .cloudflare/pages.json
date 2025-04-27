@@ -1,0 +1,13 @@
+{
+  "build": {
+    "target_directory": ".next",
+    "command": "npm run build"
+  },
+  "routes": [
+    { "pattern": "/api/send", "script": "src/app/api/send/route.ts" },
+    { "pattern": "/*", "script": null }
+  ],
+  "env": {
+    "RESEND_API_KEY": "re_dummy_key_for_build_only"
+  }
+} 
