@@ -1,17 +1,18 @@
 name = "portfolio"
 compatibility_date = "2025-04-27"
+main = "workers-site/index.js"
 
 # Configure Pages
 [site]
 bucket = ".next/static"
 
+# Environment variables
+[vars]
+RESEND_API_KEY = "re_dummy_key_for_build_only"
+
 [build]
 command = "npm run build"
 output_directory = ".next"
-
-# Define environment variables
-[env.production]
-RESEND_API_KEY = "re_dummy_key_for_build_only"
 
 [build.upload]
 format = "service-worker" 

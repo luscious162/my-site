@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npx wrangler pages deploy .next --project-name portfolio"
+    "deploy": "wrangler pages publish .next --project-name portfolio"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
