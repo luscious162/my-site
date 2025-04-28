@@ -4,7 +4,7 @@ const nextConfig = {
     // Provide a dummy Resend API key for build
     RESEND_API_KEY: 're_dummy_key_for_build_only',
   },
-  output: 'export',
+  //output: 'export',
   distDir: 'out',
   images: {
     unoptimized: true,
