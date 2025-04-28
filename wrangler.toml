@@ -1,4 +1,5 @@
-name = "portfolio"
+# wrangler.toml
+name = 'liuzh-test'
 compatibility_date = "2025-04-27"
 main = "workers-site/index.js"
 
