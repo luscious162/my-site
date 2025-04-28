@@ -1,0 +1,17 @@
+# Wrangler configuration for Cloudflare Pages
+name = "portfolio"
+compatibility_date = "2025-04-27"
+
+# Pages configuration
+compatibility_flags = []
+workers_dev = true
+
+[site]
+bucket = "out"
+
+[build]
+command = "npm run build"
+
+# Environment variables
+[env.production]
+RESEND_API_KEY = { value = "re_dummy_key_for_build_only" } 

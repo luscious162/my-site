@@ -1,0 +1,13 @@
+# Wrangler configuration for Cloudflare Pages
+name = "portfolio"
+
+# Pages configuration
+[pages]
+build_output_directory = "out"
+
+[build]
+command = "npm run build"
+
+# Environment variables
+[env]
+RESEND_API_KEY = "re_dummy_key_for_build_only" 
