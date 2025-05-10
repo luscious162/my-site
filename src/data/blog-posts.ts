@@ -192,7 +192,7 @@ function Box(props) {
   {
     id: 5,
     title: "全栈开发者路线图",
-    description: "2024年成为全栈开发者需要掌握的技能和工具",
+    description: "2025年成为全栈开发者需要掌握的技能和工具",
     date: "2024-04-20",
     readTime: "10 min",
     image: "/assets/nav-link-previews/landing.png",
