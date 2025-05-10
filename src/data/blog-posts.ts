@@ -112,6 +112,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "浅论一个考古项目",
     description: "blog中稀有的技术性文章",
     date: "2025-05-10",
+
     readTime: "10 min",
     image: "/assets/nav-link-previews/landing.png",
     category: "Career",
