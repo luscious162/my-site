@@ -285,7 +285,7 @@ const projects: Project[] = [
     title: "Oracle App",
     src: "/assets/projects-screenshots/oracle-app/1.png",
     screenshots: ["1.png", "2.png", "3.png"],
-    live: "https://github.com/yourusername/oracle-app",
+    live: "https://github.com/luscious162/Oracle-Detector-App",
     skills: {
       frontend: [
         PROJECT_SKILLS.react,
@@ -301,7 +301,7 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            一款面向考古工作者的移动应用程序，集成了Oracle Detector的识别功能，并提供了便捷的拓片采集、管理和分析工具。
+            基于谷歌andriod studio开发的一款面向考古工作者的移动应用程序，集成了Oracle Detector的识别功能，并提供了便捷的拓片采集、管理和分析工具。
           </TypographyP>
           <ProjectsLinks live={this.live} />
           <TypographyH3 className="my-4 mt-8">核心功能</TypographyH3>
@@ -328,7 +328,7 @@ const projects: Project[] = [
     title: "Qwen量化部署",
     src: "/assets/projects-screenshots/qwen/1.png",
     screenshots: ["1.png", "2.png"],
-    live: "https://github.com/yourusername/qwen-quantization",
+    live: "https://github.com/luscious162",
     skills: {
       frontend: [
         PROJECT_SKILLS.python,
@@ -341,7 +341,7 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            针对通义千问大语言模型的量化优化与部署方案，实现了模型的轻量化，同时保持了较高的性能表现。
+            针对通义千问大语言模型的量化优化与部署方案，实现了模型的轻量化，同时保持了较高的性能表现。目前该项目基于gradio部署，并提供了一个简单的web界面。暂时无法实现公开访问
           </TypographyP>
           <ProjectsLinks live={this.live} />
           <TypographyH3 className="my-4 mt-8">技术特点</TypographyH3>
@@ -367,8 +367,8 @@ const projects: Project[] = [
     title: "个人作品集网站",
     src: "/assets/projects-screenshots/portfolio/1.png",
     screenshots: ["1.png"],
-    live: "https://your-portfolio-url.com",
-    github: "https://github.com/yourusername/portfolio",
+    live: "https://liuzh.netlify.app/",
+    github: "https://github.com/luscious162/my-site",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -383,7 +383,8 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            基于Next.js和React构建的个人作品集展示网站，采用现代化的设计理念和交互效果。
+            基于Next.js和React构建的个人作品集展示网站，采用github开源框架模板搭建，在原有模板基础上新增中英菜单切换，blog，news等现代化的设计理念和交互效果。
+            下图是原始开源模板页面，在此展示，遵守MIT开源协议。
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <TypographyH3 className="my-4 mt-8">网站特点</TypographyH3>
