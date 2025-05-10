@@ -32,7 +32,7 @@ export default function BlogsPage() {
           </BoxReveal>
           <BlurIn>
             <p className="max-w-[700px] text-lg text-muted-foreground">
-              分享我的想法和经验，记录我的开发之旅
+              你准备在这待多久，我该准备一杯咖啡，还是一生
             </p>
           </BlurIn>
         </div>
