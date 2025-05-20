@@ -71,7 +71,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>今天是四处闲逛的一天。白天又忍不住去了浅草寺，去求了御守，我其实没什么信仰，算是图个好彩头。在这种景点似乎身陷于华人的汪洋大海，售卖处商量着求哪种御守的中文于耳不绝。</p>
       
-      <p>T秋叶原和池袋充斥着动漫人物的各种周边，我对此并不了解，反而更添了一种欣赏学习之趣。可惜语言实在不通，导购非常热情地跟我说些什么，我满口叽里咕噜的“sorry”，慌慌张张地鞠躬以对。</p>
+      <p>秋叶原和池袋充斥着动漫人物的各种周边，我对此并不了解，反而更添了一种欣赏学习之趣。可惜语言实在不通，导购非常热情地跟我说些什么，我满口叽里咕噜的“sorry”，慌慌张张地鞠躬以对。</p>
      
       <p>出来旅游总是有着“一寸光阴一寸金”的绝对概念，晚上八点多了还觉得尚早，就想出去走走，虽然这几天心里没有颇不宁静，却也悄悄地披了大衣，带上门出去。</p>
 
@@ -133,60 +133,23 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: 6,
-    title: "Next.js 14的新特性解析",
-    description: "探索Next.js 14带来的性能优化和新功能（本网站就是基于该项技术）",
-    date: "2024-04-15",
+    title: "爱是...",
+    description: "泽被万物而不争的海洋",
+    date: "2025-5-20",
     readTime: "8 min",
     image: "/assets/nav-link-previews/about.png",
-    category: "Web Development",
+    category: "Career",
     author: "Liu Kanshan",
     content: `
-      <p>Next.js已经成为React开发中最受欢迎的框架之一，而其第14版带来了许多令人兴奋的新特性和改进。本文将深入探讨Next.js 14的主要更新，以及它们如何改善开发体验和应用性能。</p>
-      
-      <h2>Turbopack的改进</h2>
-      <p>Next.js 14继续改进Turbopack，这是Webpack的Rust驱动替代品。在新版本中，Turbopack在开发模式下提供了更快的刷新速度和更好的内存使用率。虽然它仍处于beta阶段，但性能提升已经非常显著，特别是在大型项目中。</p>
-      
-      <h2>Server Actions稳定版</h2>
-      <p>最令人期待的功能之一是Server Actions的稳定版发布。这个功能允许你直接从客户端组件调用服务器上的函数，简化了表单处理和数据变更操作。例如：</p>
-      <pre><code>
-// app/actions.js
-'use server';
+      <p>爱的悖论在于，它越是试图证明永恒，越容易碎成锋利的秤砣。</p>
 
-export async function submitForm(formData) {
-  const name = formData.get('name');
-  await saveToDatabase(name);
-  return { success: true };
-}
+      <p>人们习惯将爱视作蓄水池，计算给予与索取的刻度，却忘了真正的丰盈如同海水——它盐分沉重，苦涩咸腥，却能托起万吨巨轮，亦能捧住一只搁浅的水母。</p>
 
-// 在客户端组件中使用
-import { submitForm } from './actions';
+      <p>被需要、被珍惜的幸福感，从来不是契约上的印章，而是台风过境后，发现阳台上那盆无人照料的花居然开了。</p>
+   
+      <p>我们常误以为孤独是生命的裂痕，可或许它更像陶器上的冰纹：在火与土的厮杀中，疼痛烧制出独一无二的釉色。</p>
 
-function MyForm() {
-  return (
-    &lt;form action={submitForm}&gt;
-      &lt;input name="name" /&gt;
-      &lt;button type="submit"&gt;Submit&lt;/button&gt;
-    &lt;/form&gt;
-  );
-}
-      </code></pre>
-      
-      <h2>部分预渲染（Partial Prerendering）</h2>
-      <p>Next.js 14引入了部分预渲染功能，这是一种混合渲染方式，允许页面的静态部分被预渲染，而动态部分则在请求时渲染。这提供了更好的性能和用户体验，特别是对于包含既有静态内容又有动态内容的页面。</p>
-      
-      <h2>统一的路由处理方式</h2>
-      <p>新版本统一了路由处理方式，通过新的Route Handlers API简化了API路由的创建。现在，在App Router中创建API端点变得更加直观，并且与页面路由有更好的一致性。</p>
-      
-      <h2>本地组件开发</h2>
-      <p>通过改进的编辑器集成和新的开发工具，Next.js 14使组件开发变得更加本地化和直观。这包括更好的错误报告、组件预览和状态检查能力。</p>
-      
-      <h2>内置SEO优化</h2>
-      <p>元数据API现在提供了更强大的SEO工具，包括简化的OG图像生成、改进的元数据管理和更好的搜索引擎爬虫支持。这使得创建SEO友好的应用变得更加简单。</p>
-      
-      <h2>迁移与升级</h2>
-      <p>对于现有Next.js项目，升级到版本14相对简单。大多数API保持兼容，同时提供了详细的迁移指南帮助开发者过渡。主要注意事项包括Node.js版本要求（现在需要16.14或更高版本）和一些废弃API的替换。</p>
-      
-      <p>Next.js 14代表了这个流行框架的重要进步，特别是在性能、开发体验和渲染灵活性方面。随着Web开发继续向更快、更具交互性的应用发展，Next.js提供了强大的工具集来构建现代Web体验。无论你是现有Next.js开发者还是正在考虑采用这个框架，版本14都提供了令人信服的理由来探索其新特性。</p>
+      <p>所以不必在荒原上拼命栽种玫瑰，若肯俯身细看，苔藓与地衣早已用十年爬出一片柔软的宇宙。</p>
     `
   }
 ];
